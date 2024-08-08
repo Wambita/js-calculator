@@ -20,6 +20,7 @@ You can view a live demo of the calculator [here](#).
 - Addition, subtraction, multiplication, and division operations
 - Responsive design for various screen sizes
 - User-friendly interface
+- Light mode and dark mode
 
 ## Installation
 
