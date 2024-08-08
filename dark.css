@@ -4,7 +4,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     background-color:  #0b0205;
     font-family: "Mali", cursive;
     font-weight: 400;
@@ -22,6 +21,7 @@ h2{
 }
 
 #calculator{
+margin: 5px;
   background-color: #140e10 ;
   border-radius: 20px;
   max-width: 500px;
