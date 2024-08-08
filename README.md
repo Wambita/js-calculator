@@ -13,7 +13,7 @@ This is a simple calculator application built with HTML, CSS, and JavaScript. It
 
 ## Demo
 
-You can view a live demo of the calculator [here](#).
+You can view a live demo of the calculator [here](https://wambita.github.io/js-calculator/).
 
 ## Features
 
