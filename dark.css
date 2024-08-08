@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:  #0b0205;
+    font-family: "Mali", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2{
+    font-size: 5rem;
+    color: #DCCAE9;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 20px;
+    padding: 20px;
+   
+}
+
+#calculator{
+  background-color: #140e10 ;
+  border-radius: 20px;
+  max-width: 500px;
+  overflow: hidden;
+  box-shadow: 1px 4px 8px rgb(0, 0, 0, 1.5);
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+#display{
+    width: 100%;
+    padding: 20px;
+    font-size: 4rem;
+    text-align: left;
+    border:none;
+    background-color: #140e10;
+    color: #ffffff;
+    font-family: "Mali", cursive;
+    font-weight: 500;
+    border-bottom: 2px solid #2c2c2c;
+    
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr );
+    gap: 10px;
+    padding: 25px;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border:none;
+    background-color: #391b47;
+    color: #faf8f6;
+    font-family: "Mali", cursive;
+    font-weight: bold;
+    font-size: 3rem;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color: #896497;
+}
+button:active{
+    background-color: hsl(280, 38%, 50%);
+}
+
+.operator-btn{
+    background-color:  #7a4988	;
+}
+
+.operator-btn:hover{
+    background-color: #410a4e;
+}
+
+.operator-btn:active{
+    background-color: #2a0134;
+}
